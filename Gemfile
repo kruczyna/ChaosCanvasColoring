@@ -5,6 +5,9 @@ ruby "3.1.2"
 # User authentication
 gem "devise"
 
+#Store secrets
+gem "dotenv-rails"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.4"
 
