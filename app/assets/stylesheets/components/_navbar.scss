@@ -1,12 +1,31 @@
 .navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+  background-color: white;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-lewagon .container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 100px;
+}
+
+.navbar-lewagon .navbar-nav {
+  display: flex;
+  gap: 15px; /* Adds spacing between the menu items */
+  flex-direction: row; /* Keeps the menu items in a row */
+}
+
+.navbar-lewagon .nav-link {
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+a {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
